@@ -16,11 +16,11 @@ import form_vmodelDemo from "./components/form_vmodelDemo.vue"
 <template>
   <!-- <ListDemo />
   <invoDemo /> -->
-  <!-- <eventDemo1 />
-  <eventControler /> -->
-  <!-- <ArrayList />
+  <eventDemo1 />
+  <eventControler />
+  <ArrayList />
   <computedDemo />
-  <styleDemo /> -->
+  <styleDemo />
   <watcherDemo />
   <form_vmodelDemo />
 </template>

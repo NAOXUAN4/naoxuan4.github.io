@@ -17,10 +17,10 @@ import form_vmodelDemo from "./components/form_vmodelDemo.vue"
   <!-- <ListDemo />
   <invoDemo /> -->
   <eventDemo1 />
-  <eventControler />
+  <!-- <eventControler />
   <ArrayList />
   <computedDemo />
   <styleDemo />
   <watcherDemo />
-  <form_vmodelDemo />
+  <form_vmodelDemo /> -->
 </template>

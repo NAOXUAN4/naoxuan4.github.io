@@ -9,7 +9,7 @@
           :href = "card.link"
           @mouseover="card.isHovered = true"
           @mouseleave="card.isHovered = false"
-          :style="{ backgroundImage: `url(${card.backgroundImage})`, backgroundColor:card.color }"    
+          :style="{ backgroundImage: `url(${card.backgroundImage})`}"    
           
         >
           <div class="card-content">
@@ -31,7 +31,7 @@
             description: "", 
             link: "/blog", 
             isHovered: false,
-            backgroundImage: "",
+            backgroundImage: "./iamges/glass1.jpg",
             color:"red"
           },
           { 
@@ -39,15 +39,15 @@
             description: "", 
             link: "/projects", 
             isHovered: false,
-            backgroundImage: "",
+            backgroundImage: "./iamges/cardbg4.jpg",
             color:"blue"
           },
           { 
-            title: "AboutYian", 
+            title: "About", 
             description: "", 
             link: "/about", 
             isHovered: false,
-            backgroundImage: "./iamges/yian.png",
+            backgroundImage: "./iamges/yian.jpg",
             color:"#50aca1"
           },
           { 
@@ -55,7 +55,7 @@
             description: "实验场", 
             link: "/contact", 
             isHovered: false,
-            backgroundImage: "",
+            backgroundImage: "./iamges/cardbg.jpg",
             color:"#ef5989"
           },
           { 
@@ -63,7 +63,7 @@
             description: "", 
             link: "/portfolio", 
             isHovered: false,
-            backgroundImage: "",
+            backgroundImage: "./iamges/cardbg.jpg",
             color:"#01d47a"
           }
         ]

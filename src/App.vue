@@ -9,6 +9,7 @@ import computedDemo from "./components/computedDemo.vue"
 import styleDemo from "./components/styleDemo.vue"
 import watcherDemo from "./components/watcherDemo.vue"
 import form_vmodelDemo from "./components/form_vmodelDemo.vue"
+import guideDemo from "./components/guideDemo.vue"
 
 </script>
 
@@ -16,11 +17,12 @@ import form_vmodelDemo from "./components/form_vmodelDemo.vue"
 <template>
   <!-- <ListDemo />
   <invoDemo /> -->
-  <eventDemo1 />
+  <!-- <eventDemo1 /> -->
   <!-- <eventControler />
   <ArrayList />
   <computedDemo />
   <styleDemo />
   <watcherDemo />
   <form_vmodelDemo /> -->
+  <guideDemo />
 </template>

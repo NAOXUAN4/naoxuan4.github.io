@@ -47,7 +47,7 @@
             description: "", 
             link: "/about", 
             isHovered: false,
-            backgroundImage: "iamges/yian.png",
+            backgroundImage: "./iamges/yian.png",
             color:"#50aca1"
           },
           { 

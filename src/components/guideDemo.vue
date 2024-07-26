@@ -10,11 +10,10 @@
           @mouseover="card.isHovered = true"
           @mouseleave="card.isHovered = false"
           :style="{ backgroundImage: `url(${card.backgroundImage})`}"    
-          
         >
           <div class="card-content">
             <h2>{{ card.title }}</h2>
-            <p>{{ card.description }}</p>
+            <p class = "descrption">{{ card.description }}</p>
           </div>
         </a>
       </div>
@@ -106,15 +105,13 @@
   }
   
   .card {
-    background-size: cover;
+    background-size: cover;   /* 背景尺寸适配 */
     background-position: center;
     border-radius: 6px;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     overflow: hidden;
     position: relative;
   }
-  
-  
   .card::before {
     content: '';
     position: absolute;
@@ -122,10 +119,9 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    transition: background 0.3s ease;
+    background: rgba(0, 0, 0, 0.2);
+    transition: background 0.5s ease;
   }
-  
   .card-content {
     position: relative;
     z-index: 1;
@@ -138,13 +134,19 @@
   }
   
   .card.hovered {
-    transform: scale(1.05);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    
+    transform: scale(1.03);
+    background-position: right;
+    background-size: 160%;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  }
+
+  .card.hovered::before {
+    background-color: rgba(0, 0, 0, 0.6);
+    
   }
   
-  .card.hovered::before {
-    background: rgba(0, 0, 0, 0.7);
-  }
+
   
   .card h2 {
     margin-top: 0;
@@ -157,11 +159,8 @@
     flex-grow: 1;
     font-size: 0.5em;
   }
-  
-  .card a:hover {
-    background-color: #2980b9;
-  }
-  
+
+
   .card-1 {
     grid-column: 1 / 2;
     grid-row: 1 / 4
@@ -187,7 +186,6 @@
     grid-column: 3 / 5;
     grid-row: 2 / 4;
   }
-  
   @media (max-width: 768px) {
     .card-container {
       grid-template-columns: 1fr;
@@ -201,4 +199,6 @@
       height: 200px;
     }
   }
+  
+
   </style>

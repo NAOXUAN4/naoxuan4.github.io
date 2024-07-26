@@ -63,7 +63,7 @@
             description: "", 
             link: "/portfolio", 
             isHovered: false,
-            backgroundImage: "./iamges/cardbg.jpg",
+            backgroundImage: "./iamges/cardbg2.jpg",
             color:"#01d47a"
           }
         ]

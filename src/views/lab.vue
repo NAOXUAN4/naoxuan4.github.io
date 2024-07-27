@@ -4,6 +4,7 @@
     :class="[`title`, { 'hovered': titleHovered }]"
     @mouseover="titleHovered = true"
     @mouseleave="titleHovered = false"
+    :style="{ backgroundImage: `url(${titlebgUrl})`}"
     >
         <p>{{ message }}</p>
     </div>
@@ -36,7 +37,8 @@ export default {
   data() {
     return {
       message: 'Lab',
-      titleHovered: false
+      titleHovered: false,
+      titlebgUrl:"./iamges/cardbg.jpg"
     }
   },
   components:{
@@ -69,7 +71,7 @@ export default {
     background-size: 20%;   
     background-position: center;
     border-radius: 6px;
-    background-image: url("./iamges/cardbg.jpg");
+    
     transition: all 0.5s ease;
 }
 

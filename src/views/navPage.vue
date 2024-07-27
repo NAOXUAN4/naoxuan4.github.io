@@ -28,7 +28,7 @@
           { 
             title: "Blog", 
             description: "", 
-            link: "/blog", 
+            link: "#/blog", 
             isHovered: false,
             backgroundImage: "./iamges/glass1.jpg",
             color:"red"
@@ -36,7 +36,7 @@
           { 
             title: "ProJects", 
             description: "", 
-            link: "/projects", 
+            link: "#/projects", 
             isHovered: false,
             backgroundImage: "./iamges/cardbg4.jpg",
             color:"blue"
@@ -44,7 +44,7 @@
           { 
             title: "About", 
             description: "", 
-            link: "/about", 
+            link: "#/about", 
             isHovered: false,
             backgroundImage: "./iamges/yian.jpg",
             color:"#50aca1"
@@ -52,7 +52,7 @@
           { 
             title: "Lab", 
             description: "实验场", 
-            link: "/contact", 
+            link: "#/Lab",
             isHovered: false,
             backgroundImage: "./iamges/cardbg.jpg",
             color:"#ef5989"
@@ -60,7 +60,7 @@
           { 
             title: "Gallery", 
             description: "", 
-            link: "/portfolio", 
+            link: "#/Gallery", 
             isHovered: false,
             backgroundImage: "./iamges/cardbg2.jpg",
             color:"#01d47a"
@@ -72,28 +72,27 @@
   </script>
   
   <style>
-  html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  html, body, #app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  body {
     background-color: #6e6e6e;
   }
   
   .nav-page {
     width: 100%;
     min-height: 100vh;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
     background-color: #6e6e6e;
+    margin: 0 auto; /* 居中内容 */
+    max-width: 1200px; /* 或者您想要的最大宽度 */
   }
   
-  h1 {
-    text-align: center;
-    color: #2c3e50;
-    margin-bottom: 30px;
-  }
   
   .card-container {
     display: grid;
@@ -108,7 +107,6 @@
   .card {
     /* 背景尺寸适配 */
     background-size: cover;   
-
     background-position: center;
     border-radius: 6px;
     transition: all 0.5s ease;

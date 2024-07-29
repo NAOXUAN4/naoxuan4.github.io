@@ -28,7 +28,7 @@
           { 
             title: "Blog", 
             description: "", 
-            link: "/blog", 
+            link: "/iyanBase", 
             isHovered: false,
             backgroundImage: "./iamges/glass1.jpg",
             color:"red"
@@ -72,25 +72,35 @@
   </script>
   
   <style>
-  html, body, #app {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  min-height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
   body {
     background-color: #6e6e6e;
   }
   
+  html, body{
+  width: 100%;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  #app {
+    max-width: 2560px;
+    width: 100%;
+    display: flex;
+    margin: 0px;
+  }
+
   .nav-page {
+    
     width: 100%;
     min-height: 100vh;
     padding: 10px;
     box-sizing: border-box;
     background-color: #6e6e6e;
-    margin: 0 auto; /* 居中内容 */
-    max-width: 1200px; /* 或者您想要的最大宽度 */
+    margin: 0 auto;
+    
   }
   
   
@@ -139,7 +149,7 @@
   
   .card.hovered {
     transform: scale(1.03);
-    background-size: 130%;
+    background-size: 150%;
     background-position: right;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
   }

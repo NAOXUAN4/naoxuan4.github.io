@@ -28,7 +28,7 @@
           { 
             title: "Blog", 
             description: "", 
-            link: "#/iyanBase", 
+            link: "http://yianaux.top/iyanBase/", 
             isHovered: false,
             backgroundImage: "./iamges/glass1.jpg",
             color:"red"

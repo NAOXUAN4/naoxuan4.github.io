@@ -28,7 +28,7 @@
           { 
             title: "Blog", 
             description: "", 
-            link: "/iyanBase", 
+            link: "#/iyanBase", 
             isHovered: false,
             backgroundImage: "./iamges/glass1.jpg",
             color:"red"
@@ -36,7 +36,7 @@
           { 
             title: "ProJects", 
             description: "", 
-            link: "/projects", 
+            link: "#/projects", 
             isHovered: false,
             backgroundImage: "./iamges/cardbg4.jpg",
             color:"blue"
@@ -44,7 +44,7 @@
           { 
             title: "About", 
             description: "", 
-            link: "/about", 
+            link: "#/about", 
             isHovered: false,
             backgroundImage: "./iamges/yian.jpg",
             color:"#50aca1"
@@ -52,7 +52,7 @@
           { 
             title: "Lab", 
             description: "实验场", 
-            link: "/Lab",
+            link: "#/Lab",
             isHovered: false,
             backgroundImage: "./iamges/cardbg.jpg",
             color:"#ef5989"
@@ -60,7 +60,7 @@
           { 
             title: "Gallery", 
             description: "", 
-            link: "/Gallery", 
+            link: "#/Gallery", 
             isHovered: false,
             backgroundImage: "./iamges/cardbg2.jpg",
             color:"#01d47a"

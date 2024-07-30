@@ -26,7 +26,7 @@
       return {
         cards: [
           { 
-            title: "Blog", 
+            title: "Library", 
             description: "", 
             link: "http://yianaux.top/iyanBase/", 
             isHovered: false,
@@ -73,7 +73,7 @@
   
   <style>
   body {
-    background-color: #6e6e6e;
+    background-color: #202020;
   }
   
   html, body{
@@ -86,6 +86,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
   #app {
+    
     max-width: 2560px;
     width: 100%;
     display: flex;
@@ -93,17 +94,16 @@
   }
 
   .nav-page {
-    
     width: 100%;
     min-height: 100vh;
     padding: 10px;
     box-sizing: border-box;
-    background-color: #6e6e6e;
+    background-color: #202020;
     margin: 0 auto;
-    
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
   }
-  
-  
   .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

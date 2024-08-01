@@ -1,6 +1,8 @@
 <template>
     <div>
-        <h1>Dark Theme Demo</h1>
+      <br></br>
+      <br></br>
+        <!-- <h1>Dark Theme Demo</h1> -->
     </div>
     <div class="Outer">
       <p>Now theme is {{ message }}</p>
@@ -40,10 +42,22 @@
     background: var(--background, #ffffff);
     color: var(--text-color, #000000);
   }
+
+  h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .Outer p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
   
   .sel {
     width: 100px;
     height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif
   }
   
   .Outer:has(option[value="Dark"]:checked) {

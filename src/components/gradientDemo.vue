@@ -1,5 +1,7 @@
 <template>
-  <h1>gradientDemo</h1>
+  <br></br>
+  
+  <!-- <h1>gradientDemo</h1> -->
   <div class="GBackGround">
     <div class="gradientBack">
       <p>{{ message }}</p>

@@ -8,6 +8,8 @@
     >
         <p>{{ message }}</p>
     </div>
+
+    <div>
     
     <ListDemo />
     <invoDemo />
@@ -18,6 +20,11 @@
     <styleDemo />
     <watcherDemo />
     <form_vmodelDemo />
+    <glassDemo />
+    <darkHasDemo />
+    <gradientDemo />
+    </div>
+    
   </div>
 </template>
 
@@ -32,6 +39,9 @@ import computedDemo from "@/components/computedDemo.vue"
 import styleDemo from "@/components/styleDemo.vue"
 import watcherDemo from "@/components/watcherDemo.vue"
 import form_vmodelDemo from "@/components/form_vmodelDemo.vue"
+import glassDemo from "@/components/glassDemo.vue"
+import darkHasDemo from "@/components/darkHasDemo.vue"
+import gradientDemo from "@/components/gradientDemo.vue"
 
 export default {
   data() {
@@ -42,6 +52,7 @@ export default {
     }
   },
   components:{
+    glassDemo,
     ListDemo,
     invoDemo,
     eventDemo,
@@ -51,19 +62,25 @@ export default {
     computedDemo,
     styleDemo,
     watcherDemo,
-    form_vmodelDemo 
+    form_vmodelDemo ,
+    gradientDemo,
+    darkHasDemo,
+    
 
   }
 }
 </script>
 
 <style>
+#app {
+  display: flex;
+  flex-direction: column;
+}
 .Labs {
     padding: 40px;
     display: flex;
     flex-direction: column;
 }
-
 
 .title {
     display: flex;

@@ -93,6 +93,10 @@
     margin: 0px;
   }
 
+  nav {
+    display: none;
+  }
+
   .nav-page {
     width: 100%;
     min-height: 100vh;
@@ -116,6 +120,7 @@
 
   .card {
     /* 背景尺寸适配 */
+    backdrop-filter: blur(10px);
     background-size: cover;   
     background-position: center;
     border-radius: 6px;
